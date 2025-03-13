@@ -6,19 +6,18 @@
     font-style: normal;
     font-variation-settings:
       "wdth" 100;
-  }
+}
 
-  .inter-uniquifier> {
+.inter-uniquifier> {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
     font-style: normal;
-  }
-  *{
+}
+*{
     margin: 0;
     padding: 0;
 
-  }
+}
 .container{
     width: 1320px;
     margin: 0 auto;
@@ -85,4 +84,88 @@
     font-size: 48px;
     font-weight: bold;
 }
-  
+
+/* style second section */
+
+.third-section{
+    background-image: linear-gradient(90deg, rgba(7, 2, 17, 1) 0%, rgba(7, 2, 17, 0) 100%), url("../images/Vectorrr.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    margin-top: 120px;
+    margin-bottom: 50px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    
+}
+
+.third{
+    width: 642px;
+    padding-left: 120px;
+}
+
+.third-section h1{
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 88px;
+    letter-spacing: calc(88px*.11);
+}
+
+.third-section p{
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 30px;
+    font-family: "Inter", sans-serif;
+    margin-top: 24px;
+
+}
+
+.third-section button{
+    align-self: start;
+    margin-top: 32px;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    background: none;
+    color: #fff;
+    border: none;
+    margin-left: 25px;
+}
+
+/* style forth section */
+.forth-section{
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 1) 0%, rgba(255, 0, 0, 0) 100%);
+    font-family: "Inter", sans-serif;
+    height: 482px;
+    margin-top: 120px;
+    margin-bottom: 50px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.forth-section h1{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+}
+.forth-section .color{
+    color: #FF0000;
+}
+
+.forth-section button{
+    background-color: #FF0000;
+    color: #fff;
+    padding: 16px 32px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 48px;
+    font-size: 20px;
+    font-weight: bold;
+}
