@@ -37,20 +37,16 @@
     align-items: center;
     text-align: center;
     color: #fff;
-}
-.banner{
-    display: flex;
-    flex-direction: column;
     gap: 20px;
-    width: 632px;
+}
 
-} 
 
 .banner-section h3{
    font-size: 32px;
 
 }
 .banner-section h1{
+    width: 632px;
    font-size: 72px;
    font-weight: 800;
    
@@ -117,10 +113,11 @@
 
 .third-section p{
     font-size: 18px;
-    font-weight: 200;
+    font-weight: 400px;
     line-height: 30px;
     font-family: "Inter", sans-serif;
     margin-top: 24px;
+    color: #FFFFFFcc;
 
 }
 
@@ -176,17 +173,19 @@
     margin-bottom: 50px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     font-family: "Inter", sans-serif;
 }
 .fifth-section .text{
-    margin-right: 70px;
-    padding-bottom: 100px;
+    padding-bottom: 70px;
 }
 .fifth-section p{
     font-size: 20px;
     line-height: 32px;
-    color: #070211;
+    font-weight: 400;
+    color: #07021199;
     width: 393px;
+    margin-top: 16px;
 }
 
 
@@ -200,15 +199,16 @@
     color: #070211;
     font-size: 48px;
     font-weight: bolder;
+    margin-top: 16px;
 }
 .image{
     border: 13px solid #FF0000;
     border-radius: 50%;
     padding: 20px;
 }
-.text-img{
+/* .text-img{
     margin-left: 70px;
-}
+} */
 .text-img h2{
     color: #FF0000;
     font-size: 48px;
@@ -217,4 +217,43 @@
 }
 .text-img p{
     width: 276px;
+    /* margin-top: 16px; */
+}
+
+.text-img img{
+   margin-top: 43px;
+}
+
+.sixth-section{
+
+}
+
+.sixth-section .text-area{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.sixth-section h6{
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+}
+
+.sixth-section h2{
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.sixth-section p{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    color: #07021199;
+    font-weight: 500;
+}
+.sixth-section .sixth{
+    background-image: url(../images/Rectangle-2.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    
 }
