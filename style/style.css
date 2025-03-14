@@ -138,11 +138,10 @@
 
 /* style forth section */
 .forth-section{
-    background-image: linear-gradient(180deg, rgba(255, 0, 0, 1) 0%, rgba(255, 0, 0, 0) 100%);
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.1) 0%, rgba(255, 0, 0, 0) 100%);
     font-family: "Inter", sans-serif;
     height: 482px;
     margin-top: 120px;
-    margin-bottom: 50px;
     border-radius: 16px;
     display: flex;
     flex-direction: column;
@@ -168,4 +167,54 @@
     margin-top: 48px;
     font-size: 20px;
     font-weight: bold;
+}
+
+/* style forth section */
+
+.fifth-section{
+    margin-top: 120px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+}
+.fifth-section .text{
+    margin-right: 70px;
+    padding-bottom: 100px;
+}
+.fifth-section p{
+    font-size: 20px;
+    line-height: 32px;
+    color: #070211;
+    width: 393px;
+}
+
+
+.text h5{
+    color: #FF0000;
+    font-size: 24px;
+
+}
+.text h3{
+    font-family: "Merriweather", serif;
+    color: #070211;
+    font-size: 48px;
+    font-weight: bolder;
+}
+.image{
+    border: 13px solid #FF0000;
+    border-radius: 50%;
+    padding: 20px;
+}
+.text-img{
+    margin-left: 70px;
+}
+.text-img h2{
+    color: #FF0000;
+    font-size: 48px;
+    font-weight: bold;
+
+}
+.text-img p{
+    width: 276px;
 }
